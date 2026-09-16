@@ -3,9 +3,9 @@ import hashlib
 import tempfile
 from typing import List, Dict
 
-import faiss
-import numpy as np
 import streamlit as st
+import numpy as np
+import faiss
 from groq import Groq
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
